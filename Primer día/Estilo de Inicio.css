@@ -1,0 +1,11 @@
+h1{color: rgb(153, 69, 0); font-size: 30px;}
+
+h2{color: limegreen; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+h3{color: tomato; font-family: Verdana, Geneva, Tahoma, sans-serif;; font-size: larger;}
+
+h4{color:midnightblue; float: unset; font-family: monospace;}
+
+html,body{height: max-content;color: rgb(red, green, blue);}
+
+#PD{color: black; font-style: oblique;}

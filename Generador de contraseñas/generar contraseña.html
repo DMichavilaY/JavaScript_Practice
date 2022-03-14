@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo generador contraseña.css" />
+    <title>Generador de contraseñas</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Generador de contraseñas</h2>
+      <div class="result-container">
+        <span id="result"></span>
+        <button class="btn" id="clipboard">
+          <i class="far fa-clipboard"></i>
+        </button>
+      </div>
+      <div class="settings">
+        <div class="setting">
+          <label>Longitud de la contraseña</label>
+          <input type="number" id="length" min="4" max="20" value="0">
+        </div>
+        <div class="setting">
+          <label>Incluir letras mayúsculas</label>
+          <input type="checkbox" id="uppercase" checked>
+        </div>
+        <div class="setting">
+          <label>Incluir letras minúsculas</label>
+          <input type="checkbox" id="lowercase" checked>
+        </div>
+        <div class="setting">
+          <label>Incluir números</label>
+          <input type="checkbox" id="numbers" checked>
+        </div>
+        <div class="setting">
+          <label>Incluir símbolos</label>
+          <input type="checkbox" id="symbols" checked>
+        </div>
+      </div>
+
+      <button class="btn btn-large" id="generate">
+        Generar contraseña
+      </button>
+    </div>
+    <script src="script variables contraseña.js"></script>
+  </body>
+</html>
