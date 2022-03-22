@@ -1,0 +1,8 @@
+.circle {
+    transition-property: width, height;
+    transition-duration: 2s;
+    position: fixed;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: rgb(148, 221, 30);
+    border-radius: 50%;
+  }

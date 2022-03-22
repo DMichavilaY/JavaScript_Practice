@@ -1,0 +1,14 @@
+img {
+    cursor: pointer;
+  }
+
+  #pared {
+    width: 70px;
+    height: 48px;
+    transition: all 3s;
+  }
+
+  #pared.growing {
+    width: 1750px;
+    height: 920px;
+  }
